@@ -18,7 +18,7 @@ This project is a simple task manager built with Python and MySQL. It allows use
 5. Select the newly created database by running `USE database_name;`
 6. Create the `tasks` table with the following attributes: `id` (primary key), `description` (not null), `indicateur` (not null, default 0). To create this table, run the following SQL command:
 
-```
+```sql
 CREATE TABLE tasks (
 id INT PRIMARY KEY,
 description VARCHAR(255) NOT NULL,
@@ -26,3 +26,16 @@ indicateur INT NOT NULL DEFAULT 0
 );
 
 ```
+7. Install the required packages by running `pip install -r requirements.txt` 
+
+### Usage
+
+To run the task manager, execute `python app.py` in your terminal.
+
+## Contributing
+
+This project is open to contributions. If you'd like to contribute, please create a pull request or contact the project owners for more information.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for more information.
