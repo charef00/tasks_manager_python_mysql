@@ -28,6 +28,21 @@ indicateur INT NOT NULL DEFAULT 0
 ```
 7. Install the required packages by running `pip install -r requirements.txt` 
 
+8. Modify the `model.py` file to match your MySQL configuration. Specifically, you'll need to update the `__init__` method to set the `host`, `database`, `user`, `password`, `port`, `conn`, `cursor`, and `table` variables to match your MySQL setup. For example:
+
+```python
+def __init__(self):
+self.host = "localhost"
+self.database = "database_name"
+self.user = "username"
+self.password = "password"
+self.port = 3306
+self.conn = None
+self.cursor = None
+self.table = "tasks"
+
+```
+
 ### Usage
 
 To run the task manager, execute `python app.py` in your terminal.
