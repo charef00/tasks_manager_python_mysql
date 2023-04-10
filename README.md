@@ -11,7 +11,7 @@ This project is a simple task manager built with Python and MySQL. It allows use
 
 ### Installation
 
-1. Clone this repository to your local machine using `git clone https://github.com/your_username/your_project_name.git`
+1. Clone this repository to your local machine using `https://github.com/charef00/tasks_manager_python_mysql.git`
 2. Open your terminal and execute the command `mysql -u root` to enter the MySQL command line interface. If this doesn't work, you may need to add the MySQL environment variable to your system.
 3. Once you're in the MySQL command line interface, create a new database by running `CREATE DATABASE database_name;`
 4. Check that the database has been created by running `SHOW DATABASES;` and verifying that the database appears in the list.
