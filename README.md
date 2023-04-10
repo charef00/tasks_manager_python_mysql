@@ -32,14 +32,14 @@ indicateur INT NOT NULL DEFAULT 0
 
 ```python
 def __init__(self):
-self.host = "localhost"
-self.database = "database_name"
-self.user = "username"
-self.password = "password"
-self.port = 3306
-self.conn = None
-self.cursor = None
-self.table = "tasks"
+    self.host = "localhost"
+    self.database = "database_name"
+    self.user = "username"
+    self.password = "password"
+    self.port = 3306
+    self.conn = None
+    self.cursor = None
+    self.table = "tasks"
 
 ```
 
