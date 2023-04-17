@@ -47,6 +47,8 @@ def __init__(self):
 
 To run the task manager, execute `python app.py` in your terminal.
 
+https://github.com/charef00/tasks_manager_python_mysql
+
 ## Contributing
 
 This project is open to contributions. If you'd like to contribute, please create a pull request or contact the project owners for more information.
